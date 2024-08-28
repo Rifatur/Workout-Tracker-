@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "xNz53i9QiNAEXyqCdS/C8XF5wcBmSjZQ8aFQbENakO4m0/EROQlLyZ9vXdOnVmwaHvlcNFIQ4Vb5CDmfZYo+YQ==",
+  "success": true,
+  "projectFilePath": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\WorkoutTracker.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rifat\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\rifat\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rifat\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\rifat\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\rifat\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\rifat\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
