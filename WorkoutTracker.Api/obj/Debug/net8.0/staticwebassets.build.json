@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Vvhbfot3xannBU8Q9h6OAdzL97dzemfGLGOsmD9YIkA=",
+  "Source": "WorkoutTracker.Api",
+  "BasePath": "_content/WorkoutTracker.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

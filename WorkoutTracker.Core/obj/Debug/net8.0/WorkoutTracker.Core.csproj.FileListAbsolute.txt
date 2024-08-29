@@ -1,0 +1,13 @@
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\bin\Debug\net8.0\WorkoutTracker.Core.deps.json
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\bin\Debug\net8.0\WorkoutTracker.Core.dll
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\bin\Debug\net8.0\WorkoutTracker.Core.pdb
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\obj\Debug\net8.0\WorkoutTracker.Core.csproj.AssemblyReference.cache
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\obj\Debug\net8.0\WorkoutTracker.Core.GeneratedMSBuildEditorConfig.editorconfig
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\obj\Debug\net8.0\WorkoutTracker.Core.AssemblyInfoInputs.cache
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\obj\Debug\net8.0\WorkoutTracker.Core.AssemblyInfo.cs
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\obj\Debug\net8.0\WorkoutTracker.Core.csproj.CoreCompileInputs.cache
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\obj\Debug\net8.0\WorkoutTracker.Core.sourcelink.json
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\obj\Debug\net8.0\WorkoutTracker.Core.dll
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\obj\Debug\net8.0\refint\WorkoutTracker.Core.dll
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\obj\Debug\net8.0\WorkoutTracker.Core.pdb
+X:\Apps\WorkoutTracker\WorkoutTracker.Core\obj\Debug\net8.0\ref\WorkoutTracker.Core.dll

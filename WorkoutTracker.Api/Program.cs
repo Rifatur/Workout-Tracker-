@@ -1,5 +1,10 @@
-using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using WorkoutTracker.Application.Services.Implementation;
+using WorkoutTracker.Application.Services.Interfaces;
+using WorkoutTracker.Core.Entities;
+using WorkoutTracker.Core.Intefaces;
 using WorkoutTracker.Infrastructure.Context;
+using WorkoutTracker.Infrastructure.Repositories;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,9 +16,19 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<WorkoutApiDB>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("WorkoutDBConnection")));
+
+
 builder.Services
-    .AddIdentityApiEndpoints<IdentityUser>()
+    .AddIdentityApiEndpoints<AppUser>()
     .AddEntityFrameworkStores<WorkoutApiDB>();
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+
+
+
 
 var app = builder.Build();
 
@@ -29,5 +44,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+//app.MapGroup("/api").MapIdentityApi<AppUser>();
 
 app.Run();
