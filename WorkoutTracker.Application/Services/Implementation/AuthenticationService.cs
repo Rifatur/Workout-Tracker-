@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using WorkoutTracker.Application.DTOs.User;
 using WorkoutTracker.Application.Services.Interfaces;
@@ -10,17 +11,26 @@ namespace WorkoutTracker.Application.Services.Implementation
     public class AuthenticationService : IAuthenticationService
     {
         private readonly IUserRepository _userRepository;
+
         private readonly IConfiguration _configuration;
         private readonly UserManager<AppUser> _userManager;
-        public AuthenticationService(IUserRepository userRepository, IConfiguration configuration, UserManager<AppUser> userManager)
+        private readonly SignInManager<AppUser> _signInManager;
+        public AuthenticationService(IUserRepository userRepository, IConfiguration configuration, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
         {
             _userRepository = userRepository;
             _configuration = configuration;
             _userManager = userManager;
+            _signInManager = signInManager;
         }
-        public Task<string> LoginAsync(UserDto userDto)
+        public async Task<string> LoginAsync(UserDto userDto)
         {
-            throw new NotImplementedException();
+            var user = await _userManager.FindByEmailAsync(userDto.Email);
+            if (user == null) { return null; }
+
+            var result = await _signInManager.PasswordSignInAsync(user, userDto.Password, false, false);
+
+            return result;
+
         }
 
         public async Task<bool> RegisterUserAsync(UserDto userDto)
