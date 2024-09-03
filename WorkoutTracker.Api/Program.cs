@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WorkoutTracker.Application.Services.Implementation;
 using WorkoutTracker.Application.Services.Interfaces;
@@ -25,9 +24,6 @@ builder.Services
     .AddIdentityApiEndpoints<AppUser>()
     .AddEntityFrameworkStores<WorkoutApiDB>();
 
-builder.Services.AddIdentity<AppUser, IdentityRole>()
-    .AddEntityFrameworkStores<WorkoutApiDB>()
-    .AddDefaultTokenProviders();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();

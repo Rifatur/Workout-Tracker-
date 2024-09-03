@@ -24,13 +24,17 @@ namespace WorkoutTracker.Application.Services.Implementation
         }
         public async Task<string> LoginAsync(UserDto userDto)
         {
+
             var user = await _userManager.FindByEmailAsync(userDto.Email);
             if (user == null) { return null; }
 
             var result = await _signInManager.PasswordSignInAsync(user, userDto.Password, false, false);
 
-            return result;
-
+            if (result.Succeeded)
+            {
+                return "Login successful.";
+            }
+            return "Invalid login attempt.";
         }
 
         public async Task<bool> RegisterUserAsync(UserDto userDto)

@@ -23,6 +23,18 @@ namespace WorkoutTracker.Api.Controllers
                 return Ok("User registered successfully");
             return BadRequest("User registration failed");
         }
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(UserDto model)
+        {
+            var result = await _authService.LoginAsync(model);
+            if (result == "Login successful.")
+            {
+                return Ok(new { message = result });
+            }
+
+            return Unauthorized(new { message = result });
+
+        }
 
     }
 }
