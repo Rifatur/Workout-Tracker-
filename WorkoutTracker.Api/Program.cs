@@ -25,20 +25,21 @@ builder.Services.AddDbContext<WorkoutApiDB>(options =>
 
 
 builder.Services
-    .AddIdentityApiEndpoints<AppUser>()
-    .AddEntityFrameworkStores<WorkoutApiDB>();
+    .AddIdentity<AppUser, IdentityRole>()
+    .AddEntityFrameworkStores<WorkoutApiDB>()
+    .AddDefaultTokenProviders();
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>(option =>
-{
-    option.Password.RequiredLength = 6;
-    option.Password.RequireNonAlphanumeric = false;
-    option.Password.RequireDigit = false;
-    option.Password.RequireLowercase = false;
-    option.Password.RequireUppercase = false;
+//builder.Services.AddIdentity<IdentityUser, IdentityRole>(option =>
+//{
+//    option.Password.RequiredLength = 6;
+//    option.Password.RequireNonAlphanumeric = false;
+//    option.Password.RequireDigit = false;
+//    option.Password.RequireLowercase = false;
+//    option.Password.RequireUppercase = false;
 
-})
-.AddEntityFrameworkStores<WorkoutApiDB>()
-.AddDefaultTokenProviders();
+//})
+//.AddEntityFrameworkStores<WorkoutApiDB>()
+//.AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication(options =>
 {

@@ -1,12 +1,21 @@
-﻿using WorkoutTracker.Core.Entities.Common;
+﻿using System.ComponentModel.DataAnnotations;
+using WorkoutTracker.Core.Entities.Common;
 
 namespace WorkoutTracker.Core.Entities
 {
     public class Exercise : AuditableBaseEntity
     {
-        public string Name { get; set; } = string.Empty;
-        public string Description { get; set; } = string.Empty;
-        public string Category { get; set; } = string.Empty;
-        public string MuscleGroup { get; set; } = string.Empty;
+        [Required]
+        [MaxLength(100)]
+        public string Name { get; set; }
+
+        [MaxLength(500)]
+        public string Description { get; set; }
+
+        [MaxLength(50)]
+        public string Category { get; set; } // e.g., cardio, strength
+
+        [MaxLength(50)]
+        public string MuscleGroup { get; set; } // e.g., chest, legs, back
     }
 }

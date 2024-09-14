@@ -10,5 +10,6 @@ namespace WorkoutTracker.Core.Entities
         [PersonalData]
         [Column(TypeName = "nvarchar(150)")]
         public string FullName { get; set; }
+        public bool IsActive { get; set; } = true;
     }
 }

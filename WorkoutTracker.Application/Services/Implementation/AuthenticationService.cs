@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using WorkoutTracker.Application.DTOs.User;
 using WorkoutTracker.Application.Services.Interfaces;
@@ -22,11 +23,57 @@ namespace WorkoutTracker.Application.Services.Implementation
             _userManager = userManager;
             _signInManager = signInManager;
         }
+
+        public async Task<bool> ActivateUserAsync(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                return false;
+            }
+
+            user.IsActive = true;
+            var result = await _userManager.UpdateAsync(user);
+
+            return result.Succeeded;
+        }
+
+        public async Task<bool> DeactivateUserAsync(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                return false;
+            }
+
+            user.IsActive = false;
+            var result = await _userManager.UpdateAsync(user);
+
+            return result.Succeeded;
+        }
+
+        public async Task<List<UserListDto>> GetAllUsersAsync(int pageNumber, int pageSize)
+        {
+            return await _userManager.Users
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .AsNoTracking()
+                .Select(user => new UserListDto
+                {
+                    Id = user.Id,
+                    UserName = user.UserName,
+                    Email = user.Email,
+                    IsActive = user.IsActive
+                }).ToListAsync();
+
+        }
+
         public async Task<string> LoginAsync(UserDto userDto)
         {
 
             var user = await _userManager.FindByEmailAsync(userDto.Email);
-            if (user == null) { return null; }
+            if (user == null || !user.IsActive)
+                return "User account is inactive";
 
             var result = await _signInManager.PasswordSignInAsync(user, userDto.Password, false, false);
 
@@ -42,5 +89,8 @@ namespace WorkoutTracker.Application.Services.Implementation
             var user = new AppUser { UserName = userDto.Email, Email = userDto.Email };
             return await _userRepository.CreateAsync(user, userDto.Password);
         }
+
+
+
     }
 }
