@@ -13,6 +13,10 @@ namespace WorkoutTracker.Core.Entities
         public bool IsCompleted { get; set; }
         public DateTime? CompletedDate { get; set; }
 
+        public AppUser AppUser { get; set; }
+
+        public ICollection<WorkoutExercise> WorkoutExercises { get; set; }
+
 
     }
 }

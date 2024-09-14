@@ -10,5 +10,10 @@ namespace WorkoutTracker.Infrastructure.Context
         public WorkoutApiDB(DbContextOptions<WorkoutApiDB> options) : base(options) { }
 
         public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<Exercise> Exercises { get; set; }
+        public DbSet<WorkoutPlan> WorkoutPlans { get; set; }
+        public DbSet<WorkoutExercise> WorkoutExercises { get; set; }
+        public DbSet<WorkoutProgress> WorkoutProgress { get; set; }
+
     }
 }
