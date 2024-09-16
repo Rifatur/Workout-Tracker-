@@ -54,6 +54,7 @@ namespace WorkoutTracker.Api.Controllers
 
             return Ok("User activated successfully.");
         }
+
         [HttpPost("DeactivateUser")]
         public async Task<IActionResult> DeactivateUser([FromBody] ActivateUserDto model)
         {

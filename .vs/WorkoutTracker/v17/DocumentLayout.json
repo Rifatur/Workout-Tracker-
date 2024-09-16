@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "X:\\Apps\\WorkoutTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|x:\\apps\\workouttracker\\workouttracker.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|solutionrelative:workouttracker.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\features\\exercises\\queries\\getexercisesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\features\\exercises\\queries\\getexercisesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\services\\implementation\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\services\\implementation\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|x:\\apps\\workouttracker\\workouttracker.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|solutionrelative:workouttracker.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\services\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +34,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetExercisesQuery.cs",
+              "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Features\\Exercises\\Queries\\GetExercisesQuery.cs",
+              "RelativeDocumentMoniker": "WorkoutTracker.Application\\Features\\Exercises\\Queries\\GetExercisesQuery.cs",
+              "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Features\\Exercises\\Queries\\GetExercisesQuery.cs",
+              "RelativeToolTip": "WorkoutTracker.Application\\Features\\Exercises\\Queries\\GetExercisesQuery.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T01:33:19.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Services\\Interfaces\\IAuthenticationService.cs",
@@ -42,33 +55,19 @@
               "RelativeToolTip": "WorkoutTracker.Application\\Services\\Interfaces\\IAuthenticationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T21:04:49.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T21:04:49.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WorkoutTracker.Api\\Controllers\\AuthController.cs",
               "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "WorkoutTracker.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAUwEEAAAA4AAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAUwCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T19:36:08.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Services\\Implementation\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "WorkoutTracker.Application\\Services\\Implementation\\AuthenticationService.cs",
-              "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Services\\Implementation\\AuthenticationService.cs",
-              "RelativeToolTip": "WorkoutTracker.Application\\Services\\Implementation\\AuthenticationService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAADwvzMAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T16:38:46.969Z",
               "EditorCaption": ""
             }
           ]
