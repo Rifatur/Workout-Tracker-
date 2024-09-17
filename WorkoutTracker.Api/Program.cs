@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using WorkoutTracker.Application;
 using WorkoutTracker.Application.Services.Implementation;
 using WorkoutTracker.Application.Services.Interfaces;
 using WorkoutTracker.Core.Entities;
@@ -16,7 +17,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+//Service Registration...
+builder.Services.AddApplicationServices();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
