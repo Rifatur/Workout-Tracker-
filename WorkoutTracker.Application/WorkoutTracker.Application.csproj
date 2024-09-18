@@ -21,10 +21,7 @@
 
   <ItemGroup>
     <Folder Include="DTOs\WorkoutProgresses\" />
-    <Folder Include="DTOs\WorkoutPlans\" />
-    <Folder Include="DTOs\WorkoutExercises\" />
     <Folder Include="Features\WorkoutProgresses\" />
-    <Folder Include="Features\WorkoutPlans\" />
     <Folder Include="Features\WorkoutExercises\" />
   </ItemGroup>
 

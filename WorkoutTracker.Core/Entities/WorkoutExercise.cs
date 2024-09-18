@@ -25,7 +25,7 @@ namespace WorkoutTracker.Core.Entities
         public float? Weight { get; set; }
 
         [MaxLength(500)]
-        public string Comments { get; set; }
+        public string? Comments { get; set; }
 
         // Foreign Key Relationship
         [ForeignKey("WorkoutPlanId")]

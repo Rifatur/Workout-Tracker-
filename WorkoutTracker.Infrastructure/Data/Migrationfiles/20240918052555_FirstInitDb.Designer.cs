@@ -9,11 +9,11 @@ using WorkoutTracker.Infrastructure.Context;
 
 #nullable disable
 
-namespace WorkoutTracker.Infrastructure.Data.MigrationsFiles
+namespace WorkoutTracker.Infrastructure.Data.Migrationfiles
 {
     [DbContext(typeof(WorkoutApiDB))]
-    [Migration("20240914170055_AddedAllEntities")]
-    partial class AddedAllEntities
+    [Migration("20240918052555_FirstInitDb")]
+    partial class FirstInitDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -282,7 +282,6 @@ namespace WorkoutTracker.Infrastructure.Data.MigrationsFiles
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Comments")
-                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 

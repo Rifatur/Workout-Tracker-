@@ -5,8 +5,7 @@ namespace WorkoutTracker.Core.Entities
 {
     public class WorkoutPlan : AuditableBaseEntity
     {
-        [Required]
-        public Guid UserId { get; set; }
+
 
         [Required]
         [MaxLength(100)]
@@ -24,12 +23,13 @@ namespace WorkoutTracker.Core.Entities
         public bool IsCompleted { get; set; }
 
         public DateTime? CompletedDate { get; set; }
-
+        public string AppUserId { get; set; }
         // Foreign Key Relationship
-
+        [Required]
+        public Guid UserId { get; set; }
         public AppUser AppUser { get; set; }
 
-        public ICollection<WorkoutExercise> WorkoutExercises { get; set; } = new List<WorkoutExercise>();
+        public ICollection<WorkoutExercise> WorkoutExercises { get; set; }
 
 
     }

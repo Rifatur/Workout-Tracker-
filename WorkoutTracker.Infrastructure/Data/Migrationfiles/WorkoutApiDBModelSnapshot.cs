@@ -8,7 +8,7 @@ using WorkoutTracker.Infrastructure.Context;
 
 #nullable disable
 
-namespace WorkoutTracker.Infrastructure.Data.MigrationsFiles
+namespace WorkoutTracker.Infrastructure.Data.Migrationfiles
 {
     [DbContext(typeof(WorkoutApiDB))]
     partial class WorkoutApiDBModelSnapshot : ModelSnapshot
@@ -279,7 +279,6 @@ namespace WorkoutTracker.Infrastructure.Data.MigrationsFiles
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Comments")
-                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 

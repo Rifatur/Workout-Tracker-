@@ -15,5 +15,16 @@ namespace WorkoutTracker.Infrastructure.Context
         public DbSet<WorkoutExercise> WorkoutExercises { get; set; }
         public DbSet<WorkoutProgress> WorkoutProgress { get; set; }
 
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    base.OnModelCreating(modelBuilder);
+
+        //    modelBuilder.Entity<Exercise>().HasData(
+        //        new Exercise { Id = Guid.NewGuid(), Name = "Push-Up", Description = "Push-Up exercise", Category = "Strength", MuscleGroup = "Chest" },
+        //        new Exercise { Id = Guid.NewGuid(), Name = "Squat", Description = "Squat exercise", Category = "Strength", MuscleGroup = "Legs" }
+        //        // Add more exercises
+        //    );
+        //}
+
     }
 }
