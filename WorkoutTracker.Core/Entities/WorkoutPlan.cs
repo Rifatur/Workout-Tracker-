@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using WorkoutTracker.Core.Entities.Common;
 
 namespace WorkoutTracker.Core.Entities
@@ -24,11 +26,11 @@ namespace WorkoutTracker.Core.Entities
 
         public DateTime? CompletedDate { get; set; }
         public string AppUserId { get; set; }
-        // Foreign Key Relationship
-        [Required]
-        public Guid UserId { get; set; }
+
+        [ForeignKey("AppUserId")]
         public AppUser AppUser { get; set; }
 
+        [JsonIgnore]
         public ICollection<WorkoutExercise> WorkoutExercises { get; set; }
 
 

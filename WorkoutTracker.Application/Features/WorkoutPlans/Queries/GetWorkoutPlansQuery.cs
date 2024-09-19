@@ -23,9 +23,9 @@ namespace WorkoutTracker.Application.Features.WorkoutPlans.Queries
 
         public async Task<List<WorkoutPlanDto>> Handle(GetWorkoutPlansQuery request, CancellationToken cancellationToken)
         {
-            var userID = new Guid("b279f27d-2469-4612-9139-760bd42e2a66");
+            string userID = "4c85a5db-3792-45ad-8294-504327afcfda";
             var workoutplan = await _context.WorkoutPlans
-                .Where(wp => wp.UserId == userID)
+                .Where(wp => wp.AppUserId == userID)
                 .Select(wp => new WorkoutPlanDto
                 {
                     Id = wp.Id,

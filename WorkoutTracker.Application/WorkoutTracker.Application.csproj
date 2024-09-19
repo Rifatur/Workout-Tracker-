@@ -20,9 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\WorkoutProgresses\" />
-    <Folder Include="Features\WorkoutProgresses\" />
     <Folder Include="Features\WorkoutExercises\" />
+    <Folder Include="Features\WorkoutProgresses\Queries\" />
   </ItemGroup>
 
 </Project>

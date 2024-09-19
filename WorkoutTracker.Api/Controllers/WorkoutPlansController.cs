@@ -40,6 +40,14 @@ namespace WorkoutTracker.Api.Controllers
             return Ok(workoutPlan);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var ListWorkoutPlan = await _mediator.Send(new GetWorkoutPlansQuery());
+
+            return Ok(ListWorkoutPlan);
+        }
+
 
     }
 }
