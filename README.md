@@ -13,7 +13,6 @@ The Workout Tracker API is a backend system designed to help users manage and tr
 - [Getting Started](#getting-started)
 - [Database Schema](#database-schema)
 - [API Endpoints](#api-endpoints)
-- [Testing](#testing)
 
 ## Features
 
