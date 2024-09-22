@@ -24,13 +24,13 @@ namespace WorkoutTracker.Application.Features.WorkoutProgresses.Queries
         }
         public async Task<List<WorkoutReportDto>> Handle(GetWorkoutReportsQuery request, CancellationToken cancellationToken)
         {
-            var userId = Guid.NewGuid().ToString();
+            string userID = "4c85a5db-3792-45ad-8294-504327afcfda";
 
             var reports = await _context.WorkoutProgress
             .Include(wp => wp.WorkoutPlan)
                 .ThenInclude(wp => wp.WorkoutExercises)
                     .ThenInclude(wp => wp.Exercise)
-            .Where(wp => wp.WorkoutPlan.AppUserId == userId)
+            .Where(wp => wp.WorkoutPlan.AppUserId == userID)
             .Select(wp => new WorkoutReportDto
             {
                 WorkoutPlanId = wp.WorkoutPlanId,

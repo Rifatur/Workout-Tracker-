@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using WorkoutTracker.Application.DTOs.WorkoutProgresses;
 using WorkoutTracker.Application.Features.WorkoutProgresses.Command;
+using WorkoutTracker.Application.Features.WorkoutProgresses.Queries;
 
 namespace WorkoutTracker.Api.Controllers
 {
@@ -24,6 +26,14 @@ namespace WorkoutTracker.Api.Controllers
 
             await _mediator.Send(command);
             return NoContent();
+        }
+
+
+        [HttpGet]
+        public async Task<ActionResult<List<WorkoutReportDto>>> GetReports()
+        {
+            var reports = await _mediator.Send(new GetWorkoutReportsQuery());
+            return Ok(reports);
         }
 
     }
