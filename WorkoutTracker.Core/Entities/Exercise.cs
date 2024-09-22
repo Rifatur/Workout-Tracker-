@@ -17,5 +17,6 @@ namespace WorkoutTracker.Core.Entities
 
         [MaxLength(50)]
         public string MuscleGroup { get; set; } // e.g., chest, legs, back
+
     }
 }

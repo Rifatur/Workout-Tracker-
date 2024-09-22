@@ -155,3 +155,4 @@ X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\MediatR.dll
 X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\MediatR.Contracts.dll
 X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\WorkoutTracker.Application.dll
 X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\WorkoutTracker.Application.pdb
+X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\FluentValidation.dll

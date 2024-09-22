@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TFZrHd/xeSCJWZMGtPCWm8X3sd4qXiTcJCY4+5t3TbvYIp1sljUkVwUeOwUK5rQMUaIVgiQGqRJ3wYTmhlA+mA==",
+  "dgSpecHash": "w/rLIpnyusOFdjf861M/Y9kmp2ClArnDtseMUD3q8z2AhWNxx9VYNaakvr+rO0EPHIt6ofD8jAXw2QD0y5pvHA==",
   "success": true,
   "projectFilePath": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\WorkoutTracker.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rifat\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\rifat\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\rifat\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\rifat\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\rifat\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
     "C:\\Users\\rifat\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\rifat\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

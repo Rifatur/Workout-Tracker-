@@ -12,6 +12,7 @@ using WorkoutTracker.Infrastructure.Context;
 using WorkoutTracker.Infrastructure.Repositories;
 
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -25,6 +26,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<WorkoutApiDB>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("WorkoutDBConnection")));
+
+
 
 
 builder.Services
@@ -68,6 +71,7 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Admin"));
     options.AddPolicy("AdminPolicy", policy => policy.RequireRole("User"));
 });
+
 
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();

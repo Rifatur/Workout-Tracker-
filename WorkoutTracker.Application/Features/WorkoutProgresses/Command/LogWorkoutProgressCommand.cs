@@ -18,10 +18,12 @@ namespace WorkoutTracker.Application.Features.WorkoutProgresses.Command
     {
         private readonly WorkoutApiDB _context;
         private readonly IMapper _mapper;
+
         public LogWorkoutProgressCommandHandler(WorkoutApiDB context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
+
         }
 
         public async Task<Unit> Handle(LogWorkoutProgressCommand request, CancellationToken cancellationToken)
@@ -33,7 +35,7 @@ namespace WorkoutTracker.Application.Features.WorkoutProgresses.Command
 
             if (workoutPlan == null)
             {
-
+                throw new KeyNotFoundException($"Workout plan with ID {request.WorkoutPlanId} not found.");
             }
 
             var progressEntries = request.ProgressEntries.Select(entry => new WorkoutProgress
@@ -45,6 +47,7 @@ namespace WorkoutTracker.Application.Features.WorkoutProgresses.Command
                 RepsCompleted = entry.RepsCompleted,
                 WeightUsed = entry.WeightUsed,
                 DateLogged = DateTime.UtcNow,
+
             }).ToList();
 
             _context.WorkoutProgress.AddRange(progressEntries);

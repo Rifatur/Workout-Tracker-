@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "X:\\Apps\\WorkoutTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|x:\\apps\\workouttracker\\workouttracker.api\\controllers\\workoutprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|solutionrelative:workouttracker.api\\controllers\\workoutprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\features\\workoutprogresses\\command\\logworkoutprogresscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\features\\workoutprogresses\\command\\logworkoutprogresscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\dtos\\workoutprogresses\\workoutprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\dtos\\workoutprogresses\\workoutprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|x:\\apps\\workouttracker\\workouttracker.api\\controllers\\workoutplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|solutionrelative:workouttracker.api\\controllers\\workoutplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|x:\\apps\\workouttracker\\workouttracker.api\\controllers\\exercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|solutionrelative:workouttracker.api\\controllers\\exercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\features\\workoutplans\\command\\createworkoutplancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\features\\workoutplans\\command\\createworkoutplancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\features\\workoutplans\\queries\\getworkoutplansquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\features\\workoutplans\\queries\\getworkoutplansquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\dtos\\workoutexercises\\workoutexercisedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\dtos\\workoutexercises\\workoutexercisedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\dtos\\workoutprogresses\\workoutprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\dtos\\workoutprogresses\\workoutprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60BD6D9-2112-48BF-BBDC-0431623F5664}|WorkoutTracker.Core\\WorkoutTracker.Core.csproj|x:\\apps\\workouttracker\\workouttracker.core\\entities\\workoutprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60BD6D9-2112-48BF-BBDC-0431623F5664}|WorkoutTracker.Core\\WorkoutTracker.Core.csproj|solutionrelative:workouttracker.core\\entities\\workoutprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\features\\workoutprogresses\\queries\\getworkoutreportsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\features\\workoutprogresses\\queries\\getworkoutreportsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\features\\workoutplans\\command\\createworkoutplancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\features\\workoutplans\\command\\createworkoutplancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|x:\\apps\\workouttracker\\workouttracker.api\\controllers\\workoutplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|solutionrelative:workouttracker.api\\controllers\\workoutplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|x:\\apps\\workouttracker\\workouttracker.application\\dtos\\workoutexercises\\workoutexercisedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998EC73A-7B91-4027-A6DB-8B2B8DAA69F7}|WorkoutTracker.Application\\WorkoutTracker.Application.csproj|solutionrelative:workouttracker.application\\dtos\\workoutexercises\\workoutexercisedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD50CB40-CA5D-4D18-96A6-639E22A73F12}|WorkoutTracker.Api\\WorkoutTracker.Api.csproj|x:\\apps\\workouttracker\\workouttracker.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,31 +71,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WorkoutProgressController.cs",
+              "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\WorkoutProgressController.cs",
+              "RelativeDocumentMoniker": "WorkoutTracker.Api\\Controllers\\WorkoutProgressController.cs",
+              "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\WorkoutProgressController.cs",
+              "RelativeToolTip": "WorkoutTracker.Api\\Controllers\\WorkoutProgressController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:06:14.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetWorkoutReportsQuery.cs",
+              "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Features\\WorkoutProgresses\\Queries\\GetWorkoutReportsQuery.cs",
+              "RelativeDocumentMoniker": "WorkoutTracker.Application\\Features\\WorkoutProgresses\\Queries\\GetWorkoutReportsQuery.cs",
+              "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Features\\WorkoutProgresses\\Queries\\GetWorkoutReportsQuery.cs",
+              "RelativeToolTip": "WorkoutTracker.Application\\Features\\WorkoutProgresses\\Queries\\GetWorkoutReportsQuery.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwDAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T02:43:31.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LogWorkoutProgressCommand.cs",
               "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Features\\WorkoutProgresses\\Command\\LogWorkoutProgressCommand.cs",
               "RelativeDocumentMoniker": "WorkoutTracker.Application\\Features\\WorkoutProgresses\\Command\\LogWorkoutProgressCommand.cs",
               "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Features\\WorkoutProgresses\\Command\\LogWorkoutProgressCommand.cs",
               "RelativeToolTip": "WorkoutTracker.Application\\Features\\WorkoutProgresses\\Command\\LogWorkoutProgressCommand.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAswDQAAAAeAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAIwDgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T04:50:47.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WorkoutProgressDto.cs",
               "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\DTOs\\WorkoutProgresses\\WorkoutProgressDto.cs",
               "RelativeDocumentMoniker": "WorkoutTracker.Application\\DTOs\\WorkoutProgresses\\WorkoutProgressDto.cs",
               "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\DTOs\\WorkoutProgresses\\WorkoutProgressDto.cs",
               "RelativeToolTip": "WorkoutTracker.Application\\DTOs\\WorkoutProgresses\\WorkoutProgressDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T04:47:03.415Z"
+              "WhenOpened": "2024-09-19T04:47:03.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "WorkoutPlansController.cs",
               "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\WorkoutPlansController.cs",
               "RelativeDocumentMoniker": "WorkoutTracker.Api\\Controllers\\WorkoutPlansController.cs",
@@ -99,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "WorkoutExerciseDto.cs",
               "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\DTOs\\WorkoutExercises\\WorkoutExerciseDto.cs",
               "RelativeDocumentMoniker": "WorkoutTracker.Application\\DTOs\\WorkoutExercises\\WorkoutExerciseDto.cs",
@@ -111,7 +146,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExercisesController.cs",
+              "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\ExercisesController.cs",
+              "RelativeDocumentMoniker": "WorkoutTracker.Api\\Controllers\\ExercisesController.cs",
+              "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\ExercisesController.cs",
+              "RelativeToolTip": "WorkoutTracker.Api\\Controllers\\ExercisesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:09:56.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkoutProgress.cs",
+              "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Core\\Entities\\WorkoutProgress.cs",
+              "RelativeDocumentMoniker": "WorkoutTracker.Core\\Entities\\WorkoutProgress.cs",
+              "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Core\\Entities\\WorkoutProgress.cs",
+              "RelativeToolTip": "WorkoutTracker.Core\\Entities\\WorkoutProgress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T04:11:53.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "WorkoutTracker.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "WorkoutTracker.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:11:54.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CreateWorkoutPlanCommand.cs",
               "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Features\\WorkoutPlans\\Command\\CreateWorkoutPlanCommand.cs",
               "RelativeDocumentMoniker": "WorkoutTracker.Application\\Features\\WorkoutPlans\\Command\\CreateWorkoutPlanCommand.cs",
@@ -119,47 +193,12 @@
               "RelativeToolTip": "WorkoutTracker.Application\\Features\\WorkoutPlans\\Command\\CreateWorkoutPlanCommand.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAuwEQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T22:19:58.031Z"
+              "WhenOpened": "2024-09-17T22:19:58.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "WorkoutTracker.Application\\Mapping\\MappingProfile.cs",
-              "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "WorkoutTracker.Application\\Mapping\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T23:22:54.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExercisesController.cs",
-              "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\ExercisesController.cs",
-              "RelativeDocumentMoniker": "WorkoutTracker.Api\\Controllers\\ExercisesController.cs",
-              "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\ExercisesController.cs",
-              "RelativeToolTip": "WorkoutTracker.Api\\Controllers\\ExercisesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T22:09:56.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetWorkoutPlansQuery.cs",
-              "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Features\\WorkoutPlans\\Queries\\GetWorkoutPlansQuery.cs",
-              "RelativeDocumentMoniker": "WorkoutTracker.Application\\Features\\WorkoutPlans\\Queries\\GetWorkoutPlansQuery.cs",
-              "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Features\\WorkoutPlans\\Queries\\GetWorkoutPlansQuery.cs",
-              "RelativeToolTip": "WorkoutTracker.Application\\Features\\WorkoutPlans\\Queries\\GetWorkoutPlansQuery.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBkAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T22:36:53.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Application\\Services\\Interfaces\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "WorkoutTracker.Application\\Services\\Interfaces\\IAuthenticationService.cs",
@@ -171,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AuthController.cs",
               "DocumentMoniker": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WorkoutTracker.Api\\Controllers\\AuthController.cs",

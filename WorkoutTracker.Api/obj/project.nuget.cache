@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "QGR06YfCgI6MaxrXsM4GgYflDMyMafjGc7pIzSndu55t7uFCVCbT/9NltkvUsy+54C6fPuNcLUaPWIieQDnd9w==",
+  "dgSpecHash": "gHGD20vawaRmoZmH38211kxTA2eXkTwIUU4LPurIS21/+tFzGttMRm+TesdJd+FmdLdTygKBuPYIlLIBm1fDGQ==",
   "success": true,
   "projectFilePath": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\WorkoutTracker.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rifat\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\rifat\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\rifat\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\rifat\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\rifat\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rifat\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
     "C:\\Users\\rifat\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
