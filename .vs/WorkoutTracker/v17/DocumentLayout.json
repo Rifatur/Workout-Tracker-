@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "WorkoutTracker.Api\\Controllers\\WorkoutProgressController.cs",
               "ToolTip": "X:\\Apps\\WorkoutTracker\\WorkoutTracker.Api\\Controllers\\WorkoutProgressController.cs",
               "RelativeToolTip": "WorkoutTracker.Api\\Controllers\\WorkoutProgressController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T14:06:14.999Z",
               "EditorCaption": ""
@@ -91,8 +91,7 @@
               "RelativeToolTip": "WorkoutTracker.Application\\Features\\WorkoutProgresses\\Queries\\GetWorkoutReportsQuery.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAYwDAAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T02:43:31.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T02:43:31.529Z"
             },
             {
               "$type": "Document",
@@ -117,8 +116,7 @@
               "RelativeToolTip": "WorkoutTracker.Application\\DTOs\\WorkoutProgresses\\WorkoutProgressDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T04:47:03.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T04:47:03.415Z"
             },
             {
               "$type": "Document",
@@ -154,8 +152,7 @@
               "RelativeToolTip": "WorkoutTracker.Api\\Controllers\\ExercisesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T22:09:56.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T22:09:56.397Z"
             },
             {
               "$type": "Document",
@@ -167,8 +164,7 @@
               "RelativeToolTip": "WorkoutTracker.Core\\Entities\\WorkoutProgress.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T04:11:53.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T04:11:53.384Z"
             },
             {
               "$type": "Document",
@@ -180,8 +176,7 @@
               "RelativeToolTip": "WorkoutTracker.Application\\Mapping\\MappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:11:54.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T14:11:54.874Z"
             },
             {
               "$type": "Document",
@@ -193,8 +188,7 @@
               "RelativeToolTip": "WorkoutTracker.Application\\Features\\WorkoutPlans\\Command\\CreateWorkoutPlanCommand.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAuwEQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T22:19:58.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T22:19:58.031Z"
             },
             {
               "$type": "Document",
