@@ -35,17 +35,6 @@ builder.Services
     .AddEntityFrameworkStores<WorkoutApiDB>()
     .AddDefaultTokenProviders();
 
-//builder.Services.AddIdentity<IdentityUser, IdentityRole>(option =>
-//{
-//    option.Password.RequiredLength = 6;
-//    option.Password.RequireNonAlphanumeric = false;
-//    option.Password.RequireDigit = false;
-//    option.Password.RequireLowercase = false;
-//    option.Password.RequireUppercase = false;
-
-//})
-//.AddEntityFrameworkStores<WorkoutApiDB>()
-//.AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication(options =>
 {

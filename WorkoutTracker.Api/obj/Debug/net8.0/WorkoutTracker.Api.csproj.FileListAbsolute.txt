@@ -97,7 +97,6 @@ X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\System.Composition.Co
 X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\System.Composition.Hosting.dll
 X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
 X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
-X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\System.Text.Json.dll
 X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 X:\Apps\WorkoutTracker\WorkoutTracker.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll

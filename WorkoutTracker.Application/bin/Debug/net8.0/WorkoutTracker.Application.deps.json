@@ -980,7 +980,10 @@
           "Microsoft.Extensions.Identity.Core": "8.0.8"
         },
         "runtime": {
-          "WorkoutTracker.Core.dll": {}
+          "WorkoutTracker.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "WorkoutTracker.Infrastructure/1.0.0": {
@@ -992,7 +995,10 @@
           "WorkoutTracker.Core": "1.0.0"
         },
         "runtime": {
-          "WorkoutTracker.Infrastructure.dll": {}
+          "WorkoutTracker.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
